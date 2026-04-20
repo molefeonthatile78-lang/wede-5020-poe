@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enquiry - Sweet Treats Bakery</title>
+</head>
+<body>
+    <header>
+        <h1>Sweet Treats Bakery</h1>
+    </header>
+
+    <nav>
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="enquiry.html">Enquiry</a></li>
+            <li><a href="contact.html">Contact</a></li> 
+            <li><a href="login.html">Login</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2> Place an Order</h2>
+        <p>Fill out the form below to order your favorite treats!</p>
+
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="product">Product:</label>
+            <select id="product" name="product" required>
+                <option value="">Select a product</option>
+                <option value="cupcakes">Cupcakes</option>
+                <option value="cookies">Cookies</option>
+                <option value="cakes">Cakes</option>
+            </select>
+
+            <label>Flavour:</label>
+            <select>
+                <option value="">Select a flavour</option>
+                <option value="chocolate">Chocolate</option>
+                <option value="vanilla">Vanilla</option>
+                <option value="redvelvet">Red Velvet</option>
+            </select>
+
+
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" min="1" required>
+
+            <button type="submit">Place Order</button>
+        </form>
+     </main>
+    
+     <footer>
+        <p>&copy; 2026 Sweet Treats Bakery. All rights reserved.</p>
+</body>
+</html>
