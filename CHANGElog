@@ -1,0 +1,34 @@
+CHANGELOG
+
+
+INITIAL SETUP
+-Created project folder in vs code
+-Set up basic HTML file structure
+-Added main pages : home, about, contact and products 
+
+PAGE DEVELOPMENT 
+-Built Home page with bakery introduction
+-Created  products/menu page
+-Added login page
+-Added about us page
+-Created contact/enquiry page
+
+Content and images
+-Addrd bakery images from pinterest
+-organised images folder
+
+SEMANTIC VERSIONING
+-Major(1.0.0)
+      *intial website created using html
+      *basic navigation between pages
+      *added main pages
+
+-Minor(1.1.0-1.3.0)
+      *added content to all pages
+      *improved page structure and links
+      *added product information
+
+-Patch(1.3.1+)
+    *corrected spelling mistakes
+    *improved layout and navigation
+    *fixed broken links
